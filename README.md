@@ -11,3 +11,5 @@ React + Three.js 复古电视作品集，包含首页鼠标跟随、拖动旋转
 修改后运行 `pnpm install --frozen-lockfile` 和 `pnpm build`，并保留 `docs/.nojekyll`。
 
 支持减少动态效果偏好；视频默认静音循环，在页面后台暂停。部分手机浏览器可能要求轻触页面才能开始播放。
+
+首页已恢复宽屏梦核楼梯间，使用 CreateX Seedance 生成的云层、旧灯闪烁和偶发电弧背景视频；生成参数和任务 ID 见 dreamcore-video.json。旧磁带控制室素材保留以便后续切换。

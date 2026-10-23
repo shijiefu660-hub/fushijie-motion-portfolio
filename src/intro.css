@@ -17,3 +17,7 @@ html,body,#root{height:100%;overflow:hidden}.orbit-page{overflow:clip}.televisio
 
 .tape-room-poster,.tape-room-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}.tape-room-video{opacity:0;transition:opacity .6s}.tape-room-video.ready{opacity:1}
 
+
+/* Dreamcore stairwell: cloudy sky, fluorescent flicker and occasional electrical arcs. */
+.dreamcore-room-background{background:#303438}.dreamcore-room-background:after{background:radial-gradient(ellipse at 50% 48%,#101a2200 15%,#10171b10 65%,#0d10183b),linear-gradient(#090c131c,transparent 25%,transparent 70%,#070b122b);opacity:1}.quiet-intro .scene-controls{background:#171f2690}.quiet-intro .orbit-name,.quiet-intro .header-note,.quiet-intro .sound-toggle,.quiet-intro .scene-caption{color:#e3e0d0}.quiet-intro .film-grain{opacity:.065}@media(max-width:700px){.dreamcore-room-background .tape-room-poster,.dreamcore-room-background .tape-room-video{object-position:86% center}}
+
